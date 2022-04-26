@@ -1,0 +1,78 @@
+
+//////////////////
+
+// document.querySelector("button").addEventListener("click",handleClick);
+
+// function handleClick() {
+//     alert("I got clicked");
+// }
+
+// document.querySelector("button ").addEventListener("click",function () { alert("I got clicked")})
+
+/////////////////
+
+// var buttonArray = document.querySelectorAll("button .drum")
+
+// for (i=0;i<buttonArray.length;i++) {
+//     buttonArray[i].addEventListener("click",function () { alert("I got clicked")})
+// }
+
+///////////////
+
+// var buttonArray = document.querySelectorAll(".drum")
+
+// function playSound() {
+
+//     this.style.color = 'white'
+//     var audio = new Audio("sounds/tom-1.mp3");
+//     audio.play();
+// };
+
+
+// for (i=0;i<buttonArray.length;i++) {
+   
+//     buttonArray[i].addEventListener("click",playSound);
+    
+// }
+
+
+///////////////
+//Note: this doesn't work, likely just need to add remaining cases(this is true, dont know what changed though )
+// var buttonArray = document.querySelectorAll(".drum")
+
+// function playSound() {
+
+//     var buttonInnerHTML = this.innerHTML;
+
+//     switch(buttonInnerHTML){
+//         case "w":
+//             var audio = new Audio("sounds/tom-1.mp3");
+//             audio.play();
+//             break;
+//         case "a":
+//             var audio = new Audio("sounds/tom-2.mp3");
+//             audio.play();
+//             break;
+//         default:
+//             alert("Please click w a");
+
+
+
+//     }
+// };
+
+
+// for (i=0;i<buttonArray.length;i++) {
+   
+//     buttonArray[i].addEventListener("click",playSound);
+    
+// }
+
+
+//////
+
+// document.addEventListener("keydown",function(event){console.log("Key Pressed")})
+
+
+
+

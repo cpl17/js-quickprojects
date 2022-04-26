@@ -1,0 +1,1 @@
+Node app that uses the openweathmap API to display a few weather statistics in a city chosen by the user
